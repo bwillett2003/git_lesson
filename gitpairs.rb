@@ -1,8 +1,8 @@
-class Example
-    attr_reader name:, age:
+class Icecream
+    attr_reader name:, flavor:
 
-    def initialize(name, age)
+    def initialize(name, flavor)
         @name = name
-        @age = age
+        @flavor = flavor
     end
 end
