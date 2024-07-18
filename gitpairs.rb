@@ -1,9 +1,8 @@
-class Pizza
-    attr_reader name:, crust:, :toppings
+class Icecream
+    attr_reader name:, flavor:
 
-    def initialize(name, crust, toppings)
+    def initialize(name, flavor)
         @name = name
-        @crust = crust
-        @toppings = toppings
+        @flavor = flavor
     end
 end
